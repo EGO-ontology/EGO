@@ -1,0 +1,28 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ego/GO_import.owl
+
+[Source ontology]
+GO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/GO_0016570 #histone modification
+includeAllChildren
+http://purl.obolibrary.org/obo/GO_0008134 #transcription factor binding
+includeAllChildren
+http://purl.obolibrary.org/obo/GO_0006306 #DNA methylation
+includeAllChildren
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/GO_0008150 #biological_process
+subClassOf http://purl.obolibrary.org/obo/BFO_0000015
+http://purl.obolibrary.org/obo/GO_0003674 #molecular_function
+subClassOf http://purl.obolibrary.org/obo/BFO_0000034 #function
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

@@ -1,0 +1,311 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY cellline "http://www.ebi.ac.uk/cellline/" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="&obo;ego.owl#"
+     xml:base="&obo;ego.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:cellline="http://www.ebi.ac.uk/cellline/">
+    <owl:Ontology rdf:about="&obo;ego.owl">
+        <dc:creator>Zhaohui Steve Qin</dc:creator>
+        <dc:date xml:lang="en">2016-03-13</dc:date>
+        <owl:versionInfo xml:lang="en">Arbor version; 1.0.1</owl:versionInfo>
+        <dc:description>The Epigenome Ontology (EGO) is an ontology in the domain of epigenome.</dc:description>
+        <dc:creator>Steve Pittard</dc:creator>
+        <dc:creator>Yongqun Oliver He (YH)</dc:creator>
+        <dc:license rdf:resource="http://creativecommons.org/licenses/by/3.0/"/>
+        <owl:imports rdf:resource="&obo;ego/CLO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ego/GO_import.owl"/>
+        <owl:imports rdf:resource="&obo;ego/NCBITaxon_import.owl"/>
+        <owl:imports rdf:resource="&obo;ego/OGG_import.owl"/>
+        <owl:imports rdf:resource="&obo;ego/PR_import.owl"/>
+        <owl:imports rdf:resource="&obo;obi/2015-12-07/obi.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000012 -->
+
+    <owl:ObjectProperty rdf:about="&obo;EGO_0000000012">
+        <rdfs:label xml:lang="en">realized in cell</rdfs:label>
+        <obo:IAO_0000112>&apos;Max binding in MCF-7 cell&apos;: &apos;realized in cell&apos; some &apos;MCF cell&apos;</obo:IAO_0000112>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <cellline:definition>an object property that represents a relation between a realizable entity (e.g., molecular function) and a cell type (e.g., a cell line cell). This is a shortcut relation: &apos;realized in&apos; some (process and &apos;occurs at&apos; some cell)</cellline:definition>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000015 -->
+
+    <owl:ObjectProperty rdf:about="&obo;EGO_0000000015">
+        <rdfs:label xml:lang="en">ChIP-seq binding at</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000018 -->
+
+    <owl:ObjectProperty rdf:about="&obo;EGO_0000000018">
+        <rdfs:label xml:lang="en">binding by protein</rdfs:label>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000115>an object property that represents a relation between a molecular function (e.g., binding) and a protein. This is a shortcut relation that equals to:
+&apos;is realized in&apos; some (&apos;binding process&apos; and (&apos;has input&apos; some protein))</obo:IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000014 -->
+
+    <owl:DatatypeProperty rdf:about="&obo;EGO_0000000014"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0007599 -->
+
+    <rdf:Description rdf:about="&obo;CLO_0007599">
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0000578"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CLO_0009251 -->
+
+    <rdf:Description rdf:about="&obo;CLO_0009251">
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0000578"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000001 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000001">
+        <rdfs:label xml:lang="en">epigenome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
+        <obo:IAO_0000115>a material entity that is made up of chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off, controlling the production of proteins in particular cells.</obo:IAO_0000115>
+        <rdfs:comment>When epigenomic compounds attach to DNA and modify its function, they are said to have &quot;marked&quot; the genome. These marks do not change the sequence of the DNA. Rather, they change the way cells use the DNA&apos;s instructions. The marks are sometimes passed on from cell to cell as cells divide. They also can be passed down from one generation to the next.</rdfs:comment>
+        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000002 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000002">
+        <rdfs:label xml:lang="en">human genomic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000011"/>
+        <obo:IAO_0000115>a genomic location in human</obo:IAO_0000115>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000003 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000003">
+        <rdfs:label xml:lang="en">human chromosome I location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000002"/>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000115>a genomic location in human chromosome I</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000004 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000004">
+        <rdfs:label xml:lang="en">Pos 3 of human Chr I</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000003"/>
+        <obo:IAO_0000115>the position 3 in a genomic location in human chromosome I</obo:IAO_0000115>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000005 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000005">
+        <rdfs:label xml:lang="en">eukaryotic epigenome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000001"/>
+        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
+        <obo:IAO_0000119>WEB: https://www.genome.gov/27532724</obo:IAO_0000119>
+        <obo:IAO_0000115>an epigenome that exists in a eukaryotic organism</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000006 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000006">
+        <rdfs:label xml:lang="en">mouse genomic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000011"/>
+        <obo:IAO_0000115>a genomic location in mouse</obo:IAO_0000115>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000007 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000007">
+        <rdfs:label xml:lang="en">MAX binding</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008134"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000009 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000009">
+        <rdfs:label xml:lang="en">human epigenome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_9606"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>The epigenome marks the genome in two main ways, both of which play a role in turning genes on or off. The first type of mark, called DNA methylation, directly affects the DNA in a genome. In this process, proteins attach chemical tags called methyl groups to the bases of the DNA molecule in specific places. The methyl groups turn genes on or off by affecting interactions between the DNA and other proteins. In this way, cells can remember which genes are on or off. The second kind of mark, called histone modification, affects DNA indirectly. DNA in cells is wrapped around histone proteins, which form spool-like structures that enable DNA&apos;s very long molecules to be wound up neatly into chromosomes inside the cell nucleus. Proteins can attach a variety of chemical tags to histones.  Other proteins in cells can detect these tags and determine whether that region of DNA should be used or ignored in that cell. Web: https://www.genome.gov/27532724</rdfs:comment>
+        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
+        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
+        <rdfs:comment>The human genome is the complete assembly of DNA (deoxyribonucleic acid)-about 3 billion base pairs - that makes each individual unique. DNA holds the instructions for building the proteins that carry out a variety of functions in a cell. Web: https://www.genome.gov/27532724</rdfs:comment>
+        <obo:IAO_0000115>a eukaryotic epigenome that exists in human.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000010 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000010">
+        <rdfs:label xml:lang="en">mouse epigenome</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000005"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;NCBITaxon_10090"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
+        <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
+        <obo:IAO_0000115>a eukaryotic epigenome that exists in mouse</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000011 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000011">
+        <rdfs:label xml:lang="en">genomic location</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000029"/>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000115>a site that indicates the location at a genome</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000013 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000013">
+        <rdfs:label xml:lang="en">MAX binding in MCF-7 cell</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000007"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;EGO_0000000012"/>
+                <owl:someValuesFrom rdf:resource="&obo;CLO_0007605"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;EGO_0000000018"/>
+                <owl:someValuesFrom rdf:resource="&obo;PR_P61244"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;EGO_0000000015"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;EGO_0000000004"/>
+                            <rdf:Description rdf:about="&obo;EGO_0000000016"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000016 -->
+
+    <owl:Class rdf:about="&obo;EGO_0000000016">
+        <rdfs:label xml:lang="en">Pos 5 of human Chr I</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;EGO_0000000003"/>
+        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000115>the position 5 in a genomic location in human chromosome I</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10090 -->
+
+    <rdf:Description rdf:about="&obo;NCBITaxon_10090">
+        <rdfs:subClassOf rdf:resource="&obo;NCBITaxon_33208"/>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
