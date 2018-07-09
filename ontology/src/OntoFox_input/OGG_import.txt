@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ego/OGG_import.owl
+
+[Source ontology]
+OGG
+
+[Low level source term URIs]
+
+http://purl.obolibrary.org/obo/OGG_3000004149 #human MAX
+http://purl.obolibrary.org/obo/OGG_3000004609 #human MYC
+http://purl.obolibrary.org/obo/OGG_3000083439 #TCF7L1; TCF3
+
+#http://purl.obolibrary.org/obo/OGG_3000002908
+#http://purl.obolibrary.org/obo/OGG_3000007391
+#http://purl.obolibrary.org/obo/OGG_3000003169
+#http://purl.obolibrary.org/obo/OGG_3000006256
+#http://purl.obolibrary.org/obo/OGG_3000006722
+#http://purl.obolibrary.org/obo/OGG_3000006872
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/OGG_0000000002 #gene
+subClassOf http://purl.obolibrary.org/obo/BFO_0000040 #material entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

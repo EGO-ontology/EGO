@@ -1,0 +1,65 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/ego/CLO_import.owl
+
+[Source ontology]
+CLO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CLO_0007606 # MCF-7 cell line cell, HyperCLDB: cl3372
+http://purl.obolibrary.org/obo/CLO_0001601 #A549
+http://purl.obolibrary.org/obo/CLO_0009251 #T-47D
+http://purl.obolibrary.org/obo/CLO_0007599 #MCF 10A
+http://purl.obolibrary.org/obo/CLO_0000001
+http://purl.obolibrary.org/obo/CLO_0037231
+http://purl.obolibrary.org/obo/CLO_0010422 #(for: GM08714) 
+http://purl.obolibrary.org/obo/CLO_0023758 #(GM10847)
+http://purl.obolibrary.org/obo/CLO_0022851
+http://purl.obolibrary.org/obo/CLO_0022859
+http://purl.obolibrary.org/obo/CLO_0022856
+http://purl.obolibrary.org/obo/CLO_0028068
+http://purl.obolibrary.org/obo/CLO_0024913 #(for GM18505)
+http://purl.obolibrary.org/obo/CLO_0024847
+http://purl.obolibrary.org/obo/CLO_0026303
+http://purl.obolibrary.org/obo/CLO_0025875 #(for: GM19099 )
+http://purl.obolibrary.org/obo/CLO_0027332
+http://purl.obolibrary.org/obo/CLO_0037281
+http://purl.obolibrary.org/obo/CLO_0037299
+http://purl.obolibrary.org/obo/CLO_0003665
+http://purl.obolibrary.org/obo/CLO_0001230
+http://purl.obolibrary.org/obo/CLO_0037238
+http://purl.obolibrary.org/obo/CLO_0003699
+http://purl.obolibrary.org/obo/CLO_0003704
+http://purl.obolibrary.org/obo/CLO_0003775 #(for HL-60)
+http://purl.obolibrary.org/obo/CLO_0004307
+http://purl.obolibrary.org/obo/CLO_0006951
+http://purl.obolibrary.org/obo/CLO_0050126
+http://purl.obolibrary.org/obo/CLO_0007606
+http://purl.obolibrary.org/obo/CLO_0037240
+http://purl.obolibrary.org/obo/CLO_0007947
+http://purl.obolibrary.org/obo/CLO_0008207
+http://purl.obolibrary.org/obo/CLO_0008381
+http://purl.obolibrary.org/obo/CLO_0037277
+http://purl.obolibrary.org/obo/CLO_0037278
+http://purl.obolibrary.org/obo/CLO_0008425
+http://purl.obolibrary.org/obo/CLO_0008734
+http://purl.obolibrary.org/obo/CLO_0009015
+http://purl.obolibrary.org/obo/CLO_0009058
+http://purl.obolibrary.org/obo/CLO_0009059
+http://purl.obolibrary.org/obo/CLO_0037234
+http://purl.obolibrary.org/obo/CLO_0009454
+http://purl.obolibrary.org/obo/CLO_0009464 #(for: U-87 MG)
+
+
+# http://purl.obolibrary.org/obo/CLO_0022851  #GM12878
+# http://purl.obolibrary.org/obo/CLO_0007606  #MCF-7 cell line, ATCC: HTB-22
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/BFO_0000001 #entity
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxiomsRecursively
+
+[Source annotation URIs to be excluded]

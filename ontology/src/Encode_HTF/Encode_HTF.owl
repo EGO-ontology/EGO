@@ -1,0 +1,2761 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ego/Encode_HTF.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ego/Encode_HTF.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ego/Encode_HTF.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0100001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0100001">
+        <rdfs:label>Label in HTF ontology</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/EGO_0100002 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0100002">
+        <rdfs:label>Description in HTF ontology</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0071159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0071159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-kappaB-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115>A protein complex that consists of a homo- or heterodimer of members of a family of structurally related proteins that contain a conserved N-terminal region called the Rel homology domain (RHD). In the nucleus, NF-kappaB complexes act as transcription factors. In unstimulated cells, NF-kappaB dimers are sequestered in the cytoplasm by IkappaB monomers; signals that induce NF-kappaB activity cause degradation of IkappaB, allowing NF-kappaB dimers to translocate to the nucleus and induce gene expression. [database_cross_reference: ISBN:0849327946]</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <rdfs:label>NF-kappaB complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Myc</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A myc protein that is a translation product of the human MYC gene or a 1:1 ortholog thereof. The gene has 3 exons, with exon 1 lacking ATG codons.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-myc protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transcription factor Sp that is a translation product of the human SP1 gene or a 1:1 ortholog thereof. It comprises the exons that code for an N-terminal inhibitory domain, two serine/threonine stretches adjacent to activation domains and three zinc fingers.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor Sp1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001350">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXP3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forkhead box protein P3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IKZF1 (IK1, IKAROS, Lyf-1, ZNFN1A1) [4+2]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An Ikaros-like zinc finger transcription factor that is a translation product of the human IKZF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA-binding protein Ikaros</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRDM1 (BLIMP1) [4]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PRDM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR domain zinc finger protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001903">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pax-5</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PAX5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired box protein PAX-5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GATA3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trans-acting T-cell-specific transcription factor GATA-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBF1 (COE1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human EBF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor COE1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PU.1 (Spi-1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SPI1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor PU.1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interferon regulatory factor 1/2 that is a translation product of the human IRF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon regulatory factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interferon regulatory factor 3-9 that is a translation product of the human IRF3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon regulatory factor 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-4 (LSIRF, NF-EM5, MUM1, Pip)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An interferon regulatory factor 3-9 that is a translation product of the human IRF4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interferon regulatory factor 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A signal transducer and transcription activator STAT that is a translation product of the human STAT1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer and activator of transcription 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A signal transducer and transcription activator STAT that is a translation product of the human STAT2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer and activator of transcription 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A signal transducer and transcription activator STAT that is a translation product of the human STAT3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer and activator of transcription 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT5A</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A signal transducer and transcription activator STAT that is a translation product of the human STAT5A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">signal transducer and activator of transcription 5a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000003113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFATc1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An NFAT protein that is a translation product of the human NFATC1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor of activated T-cells, cytoplasmic 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARID3A (Bright, DRIL1, DRIL3, DRX, E2FBP1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ARID3A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AT-rich interactive domain-containing protein 3A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ATF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic AMP-dependent transcription factor ATF-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ATF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic AMP-dependent transcription factor ATF-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ATF3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic AMP-dependent transcription factor ATF-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000011168"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACH1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BACH1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription regulator protein BACH1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-ATF</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BATF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basic leucine zipper transcriptional factor ATF-like</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004690 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004690">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCL11A (CTIP1, EVI9, ZNF856) [1+2+3]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BCL11A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell lymphoma/leukemia 11A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCL-3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BCL3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-cell lymphoma 3 protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BCLAF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bcl-2-associated transcription factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004717 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004717">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BDP1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor TFIIIB component B&apos;&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.5.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BHLHE40 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">class E basic helix-loop-helix protein 40</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004803">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BRCA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer type 1 susceptibility protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BRF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor IIIB 90 kDa subunit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000004813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000004813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human BRF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor IIIB 50 kDa subunit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-YA (CP1A, CBF-B)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CBFB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core-binding factor subunit beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CBX3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromobox protein homolog 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CCNT2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclin-T2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CEBPB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT/enhancer-binding protein beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CEBPD gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT/enhancer-binding protein delta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CEBPZ gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT/enhancer-binding protein zeta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CHD1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromodomain-helicase-DNA-binding protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CHD2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromodomain-helicase-DNA-binding protein 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005854 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005854">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREB (CREB1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CREB1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic AMP-responsive element-binding protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CTBP2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-terminal-binding protein 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005997 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005997">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000005998"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZSCAN5A (ZNF495) [5]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CTCF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional repressor CTCF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000005998 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005998">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZSCAN5-like zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CTCFL gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional repressor CTCFL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006852 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006852">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human E2F1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor E2F1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006855">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-4</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human E2F4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor E2F4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006857">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-6</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human E2F6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor E2F6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000006937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000006937">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGR1 (Krox-24, Zif268)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human EGR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">early growth response protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elf-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ELF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETS-related transcription factor Elf-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ELK1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETS domain-containing protein Elk-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-4 (SAP-1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ELK4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ETS domain-containing protein Elk-4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERR1 (ERRalpha, ESRRA) (NR3B1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ESRRA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">steroid hormone receptor ERR1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Ets-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ETS1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein C-ets-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Fos</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOS gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proto-oncogene c-Fos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOSL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fos-related antigen 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOSL2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fos-related antigen 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007602 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007602">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA1 (HNF-3alpha)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 3-alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007603 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007603">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA2 (HNF-3beta)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 3-beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXM1 (Fkh-L11, FREAC7)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXM1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forkhead box protein M1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human FOXP2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">forkhead box protein P2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007764 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007764">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000011168"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-E2L2 (NRF2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GABPB1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GA-binding protein subunit beta-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007857">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-1 (GF-1, EryF1, NF-E1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GATA1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">erythroid transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GATA2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">endothelial transcription factor GATA-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000007902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000007902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.7.3"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human KAT2A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histone acetyltransferase KAT2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000016014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GTF2B gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription initiation factor IIB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000016014"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GTF2F1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general transcription factor IIF subunit 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human GTF3C1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general transcription factor 3C polypeptide 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008470 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HCFC1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">host cell factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HDAC2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histone deacetylase 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008528 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008528">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEY-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HEY1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hairy/enhancer-of-split related with YRPW motif protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008654 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008654">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4alpha (NR2A1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HNF4A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 4-alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008655 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008655">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4gamma (NR2A2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HNF4G gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocyte nuclear factor 4-gamma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000008790 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008790">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSF1 (HSTF1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HSF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heat shock factor protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Jun</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human JUN gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor AP-1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000009234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000009234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JunD</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human JUND gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor jun-D</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MafF</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAFF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MafK</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAFK gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor MafK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAX gene or a 1:1 ortholog thereof. Max belongs to the clade B of the bHLH proteins (see PMID:20219281). The prototypical protein contains a Helix-loop-helix DNA-binding domain (Pfam:PF00010).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein max</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAZ (Zif87, ZNF801, Pur-1, SAF) [1+5]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MAZ gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myc-associated zinc finger protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.6.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MBD4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methyl-CpG-binding domain protein 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2A</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MEF2A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myocyte-specific enhancer factor 2A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2C</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MEF2C gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myocyte-specific enhancer factor 2C</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTA3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MTA3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">metastasis-associated protein MTA3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mxi-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A max dimerization protein that is a translation product of the human MXI1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">max-interacting protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010802 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010802">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Myb (Myb-L2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human MYBL2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myb-related protein B</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000010968 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000010968">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANOG</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCATTT</obo:EGO_0100002>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NANOG gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeobox protein NANOG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-E2-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCTGAGTCA</obo:EGO_0100002>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NFE2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor NF-E2 45 kDa subunit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011175">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NFIC gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear factor 1 C-type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TR4 (NR2C2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NR2C2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear receptor subfamily 2 group C member 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUP-TFII  (NR2F2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NR2F2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUP transcription factor 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucocorticoid receptor (GR) (NR3C1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NR3C1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucocorticoid receptor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000011422 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000011422">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NRF-1 (alpha-pal)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NRF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear respiratory factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBX-3</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PBX3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-B-cell leukemia transcription factor 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human POLD3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerase delta subunit 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000012969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000012969">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human POLE gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA polymerase epsilon catalytic subunit A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human POLR3A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA-directed RNA polymerase III subunit RPC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hox-B2 (HOX2H)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human POU2F2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU domain, class 2, transcription factor 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU5F1 (Oct-3, Oct-4, OTF-3)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human POU5F1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU domain, class 5, transcription factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPARgamma (NR1C3)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human PPARGC1A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peroxisome proliferator-activated receptor gamma coactivator 1-alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013667 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013667">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RAD21 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double-strand-break repair protein rad21</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013841 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013841">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RCOR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REST corepressor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human NELFE gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">negative elongation factor E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013894 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013894">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REST (NRSF, XBR) [1+7+1]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human REST gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RE1-silencing transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000013927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFX5</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RFX5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA-binding protein RFX5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-YB (CP1B, CBF-A)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RUNX1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">runt-related transcription factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runx3 (PEBP2alphaC, CBF-alpha3, AML-2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RUNX3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">runt-related transcription factor 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RXRalpha (NR2B1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RXRA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">retinoic acid receptor RXR-alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014724 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014724">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SETDB1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">histone-lysine N-methyltransferase SETDB1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A paired amphipathic helix protein Sin3 that is a translation product of the human SIN3A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paired amphipathic helix protein Sin3a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SIRT6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NAD-dependent protein deacetylase sirtuin-6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000014900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000014900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIX5</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SIX5 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">homeobox protein SIX5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SMARCB1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily B member 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCC1 (BAF155)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SMARCC1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWI/SNF complex subunit SMARCC1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCC2 (BAF170)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SMARCC2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SWI/SNF complex subunit SMARCC2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SMC3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">structural maintenance of chromosomes protein 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015440 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015440">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transcription factor Sp that is a translation product of the human SP2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor Sp2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp4</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A transcription factor Sp that is a translation product of the human SP4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor Sp4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015611 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000028988"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP-1 (SREBF1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sterol regulatory element-binding protein that is a translation product of the human SREBF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterol regulatory element-binding protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000028988"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP-2 (SREBF2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sterol regulatory element-binding protein that is a translation product of the human SREBF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sterol regulatory element-binding protein 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015613 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SRF</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SRF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">serum response factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000015848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000015848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SUZ12 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycomb protein SUZ12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAF-1 (TAF-2A, TAF(II)250) [1]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TAF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription initiation factor TFIID subunit 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TAF7 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription initiation factor TFIID subunit 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tal-1 (SCL, TCL-5)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TAL1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">T-cell acute lymphocytic leukemia protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TBL1XR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">F-box-like/WD repeat-containing protein TBL1XR1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBP</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TBP gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATA-box-binding protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTF-4 (TCF-12, HEB)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TCF12 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor 12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2A (TCF-3, ITF-1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TCF7L1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor 7-like 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016186 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016186">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF-7, isoform 2L</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TCF7L2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor 7-like 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016221">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEF-3 (TEAD-4, TCF-13L1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TEAD4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional enhancer factor TEF-3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2alpha</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TFAP2A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor AP-2-alpha</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2gamma</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human TFAP2C gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor AP-2 gamma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THAP1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human THAP1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THAP domain-containing protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000016652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tripartite motif-containing protein that is a translation product of the human TRIM28 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription intermediary factor 1-beta</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBF-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human UBTF gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nucleolar transcription factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF-1</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human USF1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upstream stimulatory factor 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF-2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human USF2 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">upstream stimulatory factor 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human WRNIP1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATPase WRNIP1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human XRCC4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA repair protein XRCC4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YY1 [4]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human YY1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional repressor protein YY1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZBTB33 (KAISO, ZNF348) [3]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZBTB33 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcriptional regulator Kaiso</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZBTB7A [4]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZBTB7A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger and BTB domain-containing protein 7A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZEB1 (TCF-8)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZEB1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger E-box-binding homeobox 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017673 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017673">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLIS3 (ZNF515) [5]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZKSCAN1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger protein with KRAB and SCAN domains 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZMIZ1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger MIZ domain-containing protein 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017716 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017716">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF143 (SBF, STAF) [7]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF143 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger protein 143</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF217 (ZABC1, Zfp217) [1+3+1+2]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF217 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger protein 217</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF263 (FPM315, ZKSCAN12, Zfp263) [9]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF263 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger protein 263</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF274 (neurotrophin receptor-interacting factor homolog; ZKSCAN19)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF274 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">neurotrophin receptor-interacting factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000017858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF384 (CAGH1, CIZ, NMP4, TNRC1) [8]</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF384 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger protein 384</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000018243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZZZ3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZZ-type zinc finger-containing protein 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000026474 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000026474">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A tripartite motif-containing protein that is a translation product of the human PML gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor PML</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000027727 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000027727">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estrogen receptor alpha (ERalpha) (ESR1, NR3A1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A receptor complex that consists of a homodimer of the estrogen receptor alpha subunits (ER-alpha).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estrogen receptor alpha complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000028988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000028988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATCACCCCAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>sterol regulatory element-binding protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cux-1 (CDP, Cut-L1)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human CUX1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CUX1 gene translation product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human HMGN3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high mobility group nucleosome-binding domain-containing protein 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000029763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SMARCA4 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription activator BRG1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000031448 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000031448">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human SUPT20H gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transcription factor SPT20</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000032504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000032504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.8"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZC3H11A gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc finger CCCH domain-containing protein 11A</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#0">
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yet undefined DNA-binding domains</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: Factors of this superclass have been shown to bind to DNA in a sequence-specific manner, but their DNA-binding domain has not yet been identified and/or structurally characterized.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic domains</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0033: Proteins belonging to this superfamily contact the DNA through a basic region which free in solution has a random structure, but becomes alpha-helically folded upon binding to DNA (PMID 2120592, PMID 2145515, PMID 1312255, PMID 8479534, PMID 7926781). Most prominent classes of this group are the bZIP and bHLH proteins. There is no &apos;consensus&apos; motif for all basic domains of this superfamily. Even the basic regions of bZIP and bHLH factors diverge greatly, although their mode of interacting with the DNA is strictly homologous: A specific alpha-helical dimerization domain provides the linkage between two DNA-contacting basic regions which adopt helical conformation when their positively charged side chains are neutralized by the phosphate backbone of the DNA.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with basic region DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic leucine zipper factors (bZIP)</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0008: A DNA-binding basic region is followed by a leucine zipper. The leucine zipper consists of repeated leucine residues at every seventh position and mediates protein dimerization as a prerequisite for DNA-binding. The leucines are directed towards one side of an alpha-helix. The leucine side chains of two polypeptides are thought to interdigitate upon dimerization (knobs-into-holes model). The leucine zipper dictates dimerization specificity. Upon DNA-binding of the dimer, the basic regions adopt alpha-helical conformation as well. Possibly, a sharp angulation point separates two alpha-helices of the subregions A and B leading to the scissors grip model for the bZIP-DNA complex. The DNA is contacted through the major groove over a whole turn.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor binding DNA through a basic region followed by leucine zipper</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:comment>may be able found Jun protein/Jun family protein term in PR</rdfs:comment>
+        <rdfs:label>Jun-related transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:comment>may be able found Jun protein/Jun family protein term in PR</rdfs:comment>
+        <rdfs:label>Jun transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fos-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:comment>may be able found Fos protein/Jun family protein term in PR</rdfs:comment>
+        <rdfs:label>Fos-related transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small Maf factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGCTGACTCAGCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>small Maf transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREB-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGACGTCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>CREB-like transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic helix-loop-helix factors (bHLH)</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0010: A DNA-binding basic region is followed by a motif of two potential amphipathic alpha-helices connected by a loop of variable length, possibly an omega loop. This putative helix-loop-helix (HLH) motif mediates dimerization as a prerequisite for DNA-binding. Upon dimerization, the alpha-helical content may significantly increase supporting the model of a four-helix bundle dimerization interface. Probably, the HLH domains of both dimer constituents are arranged in a parallel orientation. The basic region dictates DNA-binding specificity. Upon DNA-binding of the dimer, the basic regions adopt alpha-helical conformation as well.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor binding DNA through a basic region followed by helix-loop-helix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2A-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAGGTGTAAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>E2A-related transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.5.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.5.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arnt-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Arnt-like factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bHLH-ZIP factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACATGTAAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>basic helix-loop-helix leucine zipper transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>upstream stimulatory factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myc / Max factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Myc / Max factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCCTGAGGC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>AP-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinc-coordinating DNA-binding domains</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0034: In polymerase III transcription factor TFIIIA, a repetitive pattern of cysteine and histidine residues was discovered and, together with the known zinc-dependence of TFIIIA, led to the model of &apos;zinc fingers&apos; of the Cys2His2 type (PMID 3191912, PMID 6196359). Shortly after, sequences coding for the estrogen receptor were cloned and revealed a somewhat similar arrangement of cysteine residues only (Cys4), with no additional homologies (PMID 3755102, PMID 4040853). Nevertheless, a zinc finger model was proposed for these factors as well and was subsequently proven, with a minor alteration in the Cys pattern (PMID 3780678). In addition to these two large classes of zinc finger proteins, there are many factors revealing Cys4 zinc fingers of variable composition, such as the GATA-factors, some fungal regulators and adenovirus E1A. Finally, the yeast GAL4-like regulators are grouped together as Cys6 &apos;zinc clusters&apos;.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with zinc-coordinating DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear receptors with C4 zinc fingers</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0002: Zinc finger motif of nuclear receptor type. Two such motifs differing in size, composition and function are present in each receptor molecule. Each finger comprises 4 cysteine residues coordinating one zinc ion. The second half including the second cysteine pair has alpha-helix conformation, the helix of the first finger binds to the DNA through the major groove. The sequence between the first two cysteines of the second finger mediates dimerization upon DNA-binding.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroid hormone receptors (NR3)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000011406"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-Aalpha</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER-like receptors (NR3A&amp;B)</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGGTCACAGTGACCT</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RXR-related receptors (NR2)</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGACCT</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4 (NR2A)</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGTCCAAAGTTCA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-type zinc fingers</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two zinc-finger GATA factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGATAA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H2 zinc finger factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0001: Zinc finger motif of TFIIIA/Krueppel type. Each finger comprises 2 cysteine and 2 histidine residues coordinating one zinc ion, in some cases one histidine is replaced by another cysteine. The zinc ion is essential for DNA-binding. The first half of the finger sequence is generally organized in two antiparallel beta-strands, the second half as an alpha-helix and partly as an 310-helix. Hydrophobic contacts between the beta-strands and the alpha-helix are formed by the conserved phenylalanine and leucine residues. The alpha-helix binds to DNA through the major groove. The finger link frequently is TGEKPY.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three-zinc finger Krüppel-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp1-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGGGCGGGG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">More than 3 adjacent zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YY1-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCCATCTTG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factors with multiple dispersed zinc fingers</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.6.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.6.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CpG-binding proteins</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.7.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.7.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone acetyltransferases with C2HC zinc finger</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H zinc finger factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: These factors comprise a putative zinc finger motif with the signature C------C-----C---H. DNA-binding has been proven only for three proteins of this class, ZC3H8 (2.8.1.0.1), of which closely related proteins have been included for similarity, ZGPAT (2.8.2.0.1), with no close relatives found, and RC3H2 (2.8.4.0.1). Most, if not all, other proteins of this class appear to be RNA-binders and be involved more likely in splicing rather than transcriptional regulation.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helix-turn-helix domains</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0035: The helix-turn-helix superclass is a particularly large and heterogeneous family of transcription factors. Their DNA-binding motif appeared very early during evolution since it is found in prokaryotic and bacteriophage regulators as well as in mammalian transcriptional activators and repressors (PMID 6236744, PMID 6330566, PMID 6429549). Presumably due to this property, most of them fulfill elementary functions in eukaryotes such as developmental regulation and determination of differentiation processes. In general, they comprise a DNA-recognition helix which inserts into the major DNA groove, another one which exerts unspecific stabilizing backbone interactions, and in most cases additional helices which help to stabilize the overall structure of the DNA-binding module.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with helix-turn-helix DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homeo domain factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0006: Three consecutive alpha-helix structures, helix 3 contacts mainly the major groove of the DNA, some contacts at the minor groove are observed as well. Helix 2 and 3 resemble the helix-turn-helix structure of prokaryotic regulators.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with homeo DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fork head / winged helix factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0023: Identified by homology between HNF-3A and fkh. The domain comprises approx. 110 AA. Analysis of the crystal structure has revealed a compact structure of three alpha-helices, the third alpha-helix being exposed towards the major groove of the DNA. The domain also exerts minor groove contacts. Upon binding to DNA, it induces a bend of 13 degree.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>fork head / winged helix transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forkhead box (FOX) factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGTTT</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>forkhead box (FOX) transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGTTTGTTTTAAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>FOXA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTGTTTCAA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>FOXP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>E2F</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tryptophan cluster factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0022: The tryptophan clusters comprise several tryptophan residues with a spacing of 12-21 amino acid residues; the subclass of myb-type DNA-binding domains typically exhibit a spacing of 19-21 amino acid residues. All IRF family members, except IRF-1 and IRF-2, contain conserved IAD, IRF association domain that is responsible for protein-protein interactions with other IRF family members or with Ets factor PU.1 and/or bHLH factor E47. IRF-1 and IRF-2 contain IAD2 that is conserved between them and, like IAD, involved in protein-protein interactions. (PMID 10586038)</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>tryptophan cluster transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myb/SANT domain factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with Myb/SANT DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCA-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>SMARCA-like transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TADA2-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>TADA2-like transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ets-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGAAG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Ets-related transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-like factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCGGAAG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Elk-like transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interferon-regulatory factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAGTGAATAAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>interferon-regulatory factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other all-alpha-helical DNA-binding domains</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: This superclass comprises transcription factors with DNA-binding domains that exhibit  alpha-helically structured interfaces interacting with the DNA. So far, only the HMG proteins are structurally well characterized, whereas the DNA-binding mode of NF-Y proteins is mainly based on modeling by homology. The proteins of this group show significant similarities to some non-specific DNA-binding proteins.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with alpha-helical DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-mobility group (HMG) domain factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0015: Proteins of this class comprise a region of homology with the chromosomal non-histone HMG proteins such as HMG1. This region comprises the DNA-binding domain which in some instances such as HMG1 mediates sequence-unspecific, in other cases such LEF-1 sequence-specific binding to DNA. This domain exhibits a typical L-shaped conformation made up of 3 alpha-helices and an extended N-terminal extension of the first helix. The latter together with helix 1, which contains a kink, form the long arm of the L, whereas helices 1 and 2 form the short arm. Binding to the minor groove induces a sharp bending of the DNA by more than 90 degree, away from the bound protein. The overall topology of the DNA-protein complexes resembles somewhat that of the TBP-TATA box complex.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with high-mobility group (HMG) DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF-7-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTCAAAGTCTAAC</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>TCF-7-related transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heteromeric CCAAT-binding factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: The heteromeric CCAAT-binding factor known from mammalian systems is NF-Y (CBF, CP1), a homolog of yeast HAP2/3/4. Like the latter, it is a heterotrimeric complex of which all three subunits NF-YA, NF-YB and NF-YC are required for binding to the CCAAT-element on the DNA. NF-YB and NF-YC both exhibit a histone-fold domain, showing some homology with histones H2B and H2A, respectively. These regions are required for heterodimerization, which is followed by docking of NF-YA. Modeling of the NF-Y complex and its binding to DNA according to the homology with histone and NC2 complexes suggests that the heterotrimeric complex provides an alpha-helically folded interface to interact with the DNA. Contribution of some loop structures is also conceivable. Upon binding through major and minor groove contacts, the NF-Y complex induces considerable bending of the DNA. (PMID 12401788)</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>heteromeric CCAAT-binding transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-Helices exposed by beta-structures</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: Members of this superclass possess a DNA-contact interface of alpha-helices, which are exposed by a scaffold of beta-strands. Different to members of superclasses 1-4, the DNA-binding alpha helices do not insert in either groove but rather are packed against the DNA.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with alpha-Helices exposed by beta-structure DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MADS box factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0014: Proteins of this class comprise a region of homology. The DNA-binding domain also comprises the dimerization capability. In the DNA-bound dimer (shown for SRF), two antiparallel amphipathic alpha-helices (alpha-I), form a coiled coil and are oriented approximately parallel on the minor groove. These helices make minor and major groove contacts, the N-terminal extensions form minor groove contacts. The bound DNA  is bent and wrapped around the protein. It exhibits a compressed minor groove in the center and widened minor groove in the flanks. (PMID 7637780)</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>MADS box transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTAAAAATAG</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>MEF-2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoglobulin fold</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: DNA-binding domains of this superclass exhibit an immunoglobulin-like fold. It is characterized by a beta-core structure, usually a beta-sandwich, which exposes a DNA-contact interface of mostly loops, but also other secondary structure elements, from which the DNA-binding amino acid residues are protruding.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with immunoglobulin fold DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rel homology region (RHR) factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0020: The structure of the Rel-type DBD exhibits a bipartite subdomain structure, each subdomain comprising a beta-barrel with five loops that form an extensive contact surface to the major groove of the DNA. Particularly, the first loop of the N-terminal subdomain (the highly conserved recognition loop) performs contacts with the recognition element on the DNA, but other loops are involved. The fact that the main DNA-contacts are made through loops has been suggested to provide a high degree of flexibility in binding to a range of different target sequences. Augmenting interactions are achieved by two alpha-helices within the N-terminal part that form strong minor groove contacts to the A/T-rich center of the  B-element. In p65, the sequence between both alpha-helices is much shorter and even helix 2 is truncated. The second, C-terminal domain is necessary mainly for protein dimerization.</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Rel homology region (RHR) transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTCCCGGAA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>signal transducer and activator of transcription factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Sheet binding to DNA</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Class description: The DNA-binding domains of this superclass bind to DNA through single extended strands or beta-sheets.  []</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with beta-Sheet DNA-binding domain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATA-binding proteins</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: A 10-stranded, anti-parallel beta-sheet forms a quasi-symmetric saddle-like structure, where the convex side is backed by four alpha-helices and the concave side exerts mostly hydrophobic interactions with the minor groove of the TATA-box. Binding of TBP imposes a significant kink of the DNA double helix axis. (PMID 10617571, and references cited therein)</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>TATA-binding protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBP-related factors</obo:EGO_0100001>
+        <obo:EGO_0100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATAAA</obo:EGO_0100002>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>TBP-related transcription factor</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+

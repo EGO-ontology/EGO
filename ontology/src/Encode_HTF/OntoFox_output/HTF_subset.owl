@@ -1,0 +1,1857 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/HTF_subset.owl#"
+     xml:base="http://purl.obolibrary.org/obo/HTF_subset.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/HTF_subset.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0100001"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#0">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: Factors of this superclass have been shown to bind to DNA in a sequence-specific manner, but their DNA-binding domain has not yet been identified and/or structurally characterized.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yet undefined DNA-binding domains</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#0.0.6.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#0.0.6.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NRF-1 (alpha-pal)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1">
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic domains</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0033: Proteins belonging to this superfamily contact the DNA through a basic region which free in solution has a random structure, but becomes alpha-helically folded upon binding to DNA (PMID 2120592, PMID 2145515, PMID 1312255, PMID 8479534, PMID 7926781). Most prominent classes of this group are the bZIP and bHLH proteins. There is no &#39;consensus&#39; motif for all basic domains of this superfamily. Even the basic regions of bZIP and bHLH factors diverge greatly, although their mode of interacting with the DNA is strictly homologous: A specific alpha-helical dimerization domain provides the linkage between two DNA-contacting basic regions which adopt helical conformation when their positively charged side chains are neutralized by the phosphate backbone of the DNA.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic leucine zipper factors (bZIP)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0008: A DNA-binding basic region is followed by a leucine zipper. The leucine zipper consists of repeated leucine residues at every seventh position and mediates protein dimerization as a prerequisite for DNA-binding. The leucines are directed towards one side of an alpha-helix. The leucine side chains of two polypeptides are thought to interdigitate upon dimerization (knobs-into-holes model). The leucine zipper dictates dimerization specificity. Upon DNA-binding of the dimer, the basic regions adopt alpha-helical conformation as well. Possibly, a sharp angulation point separates two alpha-helices of the subregions A and B leading to the scissors grip model for the bZIP-DNA complex. The DNA is contacted through the major groove over a whole turn.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jun factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Jun</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">JunD</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCTGAGTCA</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-E2-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-E2L2 (NRF2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BACH1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fos-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGAGTCA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Fos</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Small Maf factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGCTGACTCAGCA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MafF</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MafK</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.4.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.4.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-ATF</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREB-like factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGACGTCA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CREB (CREB1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.1.7.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATF-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Basic helix-loop-helix factors (bHLH)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0010: A DNA-binding basic region is followed by a motif of two potential amphipathic alpha-helices connected by a loop of variable length, possibly an omega loop. This putative helix-loop-helix (HLH) motif mediates dimerization as a prerequisite for DNA-binding. Upon dimerization, the alpha-helical content may significantly increase supporting the model of a four-helix bundle dimerization interface. Probably, the HLH domains of both dimer constituents are arranged in a parallel orientation. The basic region dictates DNA-binding specificity. Upon DNA-binding of the dimer, the basic regions adopt alpha-helical conformation as well.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAGGTGTAAC</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2A-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2A (TCF-3, ITF-1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1.0.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1.0.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HTF-4 (TCF-12, HEB)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tal-1 (SCL, TCL-5)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.4.1.8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.4.1.8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HEY-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.5.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.5.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arnt-like factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACATGTAAC</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bHLH-ZIP factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">USF-2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ATCACCCCAC</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP-1 (SREBF1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SREBP-2 (SREBF2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CACGTG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myc / Max factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Myc</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Max</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.7.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6.7.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.2.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mxi-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCCTGAGGC</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2alpha</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1.0.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1.0.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#1.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AP-2gamma</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0034: In polymerase III transcription factor TFIIIA, a repetitive pattern of cysteine and histidine residues was discovered and, together with the known zinc-dependence of TFIIIA, led to the model of &#39;zinc fingers&#39; of the Cys2His2 type (PMID 3191912, PMID 6196359). Shortly after, sequences coding for the estrogen receptor were cloned and revealed a somewhat similar arrangement of cysteine residues only (Cys4), with no additional homologies (PMID 3755102, PMID 4040853). Nevertheless, a zinc finger model was proposed for these factors as well and was subsequently proven, with a minor alteration in the Cys pattern (PMID 3780678). In addition to these two large classes of zinc finger proteins, there are many factors revealing Cys4 zinc fingers of variable composition, such as the GATA-factors, some fungal regulators and adenovirus E1A. Finally, the yeast GAL4-like regulators are grouped together as Cys6 &#39;zinc clusters&#39;.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zinc-coordinating DNA-binding domains</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear receptors with C4 zinc fingers</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0002: Zinc finger motif of nuclear receptor type. Two such motifs differing in size, composition and function are present in each receptor molecule. Each finger comprises 4 cysteine residues coordinating one zinc ion. The second half including the second cysteine pair has alpha-helix conformation, the helix of the first finger binds to the DNA through the major groove. The sequence between the first two cysteines of the second finger mediates dimerization upon DNA-binding.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroid hormone receptors (NR3)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Glucocorticoid receptor (GR) (NR3C1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-Aalpha</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGGTCACAGTGACCT</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER-like receptors (NR3A&amp;B)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Estrogen receptor alpha (ERalpha) (ESR1, NR3A1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.1.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ERR1 (ERRalpha, ESRRA) (NR3B1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.2.5.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.2.5.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PPARgamma (NR1C3)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RXR-related receptors (NR2)</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGACCT</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RXRalpha (NR2B1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGTCCAAAGTTCA</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4 (NR2A)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4alpha (NR2A1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4gamma (NR2A2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.4.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.4.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TR4 (NR2C2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.5.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3.5.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COUP-TFII  (NR2F2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-type zinc fingers</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGATAA</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two zinc-finger GATA factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-1 (GF-1, EryF1, NF-E1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.2.7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1.2.7">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MTA3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H2 zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0001: Zinc finger motif of TFIIIA/Krueppel type. Each finger comprises 2 cysteine and 2 histidine residues coordinating one zinc ion, in some cases one histidine is replaced by another cysteine. The zinc ion is essential for DNA-binding. The first half of the finger sequence is generally organized in two antiparallel beta-strands, the second half as an alpha-helix and partly as an 310-helix. Hydrophobic contacts between the beta-strands and the alpha-helix are formed by the conserved phenylalanine and leucine residues. The alpha-helix binds to DNA through the major groove. The finger link frequently is TGEKPY.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three-zinc finger Krüppel-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGGGCGGGG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp1-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp4</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EGR1 (Krox-24, Zif268)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.2.1.12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.2.1.12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZBTB33 (KAISO, ZNF348) [3]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">More than 3 adjacent zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF274 (neurotrophin receptor-interacting factor homolog; ZKSCAN19)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0.79 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0.79">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF263 (FPM315, ZKSCAN12, Zfp263) [9]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.1.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.1.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GLIS3 (ZNF515) [5]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.12.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.12.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRDM1 (BLIMP1) [4]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.28.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.28.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF143 (SBF, STAF) [7]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.37.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.37.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF384 (CAGH1, CIZ, NMP4, TNRC1) [8]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZSCAN5-like zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZSCAN5A (ZNF495) [5]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.8.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.8.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZBTB7A [4]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCCATCTTG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YY1-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.3.9"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YY1 [4]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factors with multiple dispersed zinc fingers</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0.27 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0.27">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.0"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REST (NRSF, XBR) [1+7+1]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.15.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.15.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCL11A (CTIP1, EVI9, ZNF856) [1+2+3]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.2.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.2.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF217 (ZABC1, Zfp217) [1+3+1+2]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.4.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.4.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IKZF1 (IK1, IKAROS, Lyf-1, ZNFN1A1) [4+2]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.8.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4.8.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2.3.4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MAZ (Zif87, ZNF801, Pur-1, SAF) [1+5]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.6.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.6.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CpG-binding proteins</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.7.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.7.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone acetyltransferases with C2HC zinc finger</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H zinc finger factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: These factors comprise a putative zinc finger motif with the signature C------C-----C---H. DNA-binding has been proven only for three proteins of this class, ZC3H8 (2.8.1.0.1), of which closely related proteins have been included for similarity, ZGPAT (2.8.2.0.1), with no close relatives found, and RC3H2 (2.8.4.0.1). Most, if not all, other proteins of this class appear to be RNA-binders and be involved more likely in splicing rather than transcriptional regulation.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#2.9.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#2.9.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">THAP1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3">
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Helix-turn-helix domains</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0035: The helix-turn-helix superclass is a particularly large and heterogeneous family of transcription factors. Their DNA-binding motif appeared very early during evolution since it is found in prokaryotic and bacteriophage regulators as well as in mammalian transcriptional activators and repressors (PMID 6236744, PMID 6330566, PMID 6429549). Presumably due to this property, most of them fulfill elementary functions in eukaryotes such as developmental regulation and determination of differentiation processes. In general, they comprise a DNA-recognition helix which inserts into the major DNA groove, another one which exerts unspecific stabilizing backbone interactions, and in most cases additional helices which help to stabilize the overall structure of the DNA-binding module.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Homeo domain factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0006: Three consecutive alpha-helix structures, helix 3 contacts mainly the major groove of the DNA, some contacts at the minor groove are observed as well. Helix 2 and 3 resemble the helix-turn-helix structure of prokaryotic regulators.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.1.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.1.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hox-B2 (HOX2H)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.10.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.10.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POU5F1 (Oct-3, Oct-4, OTF-3)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.2.12 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.2.12">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCATTT</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NANOG</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.4.4.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.4.4.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PBX-3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.6.3.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.6.3.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SIX5</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.8.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.8.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZEB1 (TCF-8)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.9.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1.9.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cux-1 (CDP, Cut-L1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.2.2.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.2.2.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pax-5</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fork head / winged helix factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0023: Identified by homology between HNF-3A and fkh. The domain comprises approx. 110 AA. Analysis of the crystal structure has revealed a compact structure of three alpha-helices, the third alpha-helix being exposed towards the major groove of the DNA. The domain also exerts minor groove contacts. Upon binding to DNA, it induces a bend of 13 degree.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forkhead box (FOX) factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGTTT</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGTTTGTTTTAAC</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA1 (HNF-3alpha)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA2 (HNF-3beta)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.13.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.13.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXM1 (Fkh-L11, FREAC7)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTGTTTCAA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.1.16"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-4</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">E2F-6</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.3.0.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3.3.0.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RFX5</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.4.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.4.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HSF1 (HSTF1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0022: The tryptophan clusters comprise several tryptophan residues with a spacing of 12-21 amino acid residues; the subclass of myb-type DNA-binding domains typically exhibit a spacing of 19-21 amino acid residues. All IRF family members, except IRF-1 and IRF-2, contain conserved IAD, IRF association domain that is responsible for protein-protein interactions with other IRF family members or with Ets factor PU.1 and/or bHLH factor E47. IRF-1 and IRF-2 contain IAD2 that is conserved between them and, like IAD, involved in protein-protein interactions. (PMID 10586038)</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tryptophan cluster factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Myb/SANT domain factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">B-Myb (Myb-L2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCA-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TADA2-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCC1 (BAF155)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.1.6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SMARCC2 (BAF170)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ets-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGAAG</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">c-Ets-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCGGAAG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-like factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elk-4 (SAP-1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elf-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2.5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.2"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PU.1 (Spi-1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AAGTGAATAAC</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Interferon-regulatory factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3.0.4">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3.5.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRF-4 (LSIRF, NF-EM5, MUM1, Pip)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.6.1.0.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.6.1.0.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEF-3 (TEAD-4, TCF-13L1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#3.7.1.3.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#3.7.1.3.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARID3A (Bright, DRIL1, DRIL3, DRX, E2FBP1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: This superclass comprises transcription factors with DNA-binding domains that exhibit  alpha-helically structured interfaces interacting with the DNA. So far, only the HMG proteins are structurally well characterized, whereas the DNA-binding mode of NF-Y proteins is mainly based on modeling by homology. The proteins of this group show significant similarities to some non-specific DNA-binding proteins.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Other all-alpha-helical DNA-binding domains</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-mobility group (HMG) domain factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0015: Proteins of this class comprise a region of homology with the chromosomal non-histone HMG proteins such as HMG1. This region comprises the DNA-binding domain which in some instances such as HMG1 mediates sequence-unspecific, in other cases such LEF-1 sequence-specific binding to DNA. This domain exhibits a typical L-shaped conformation made up of 3 alpha-helices and an extended N-terminal extension of the first helix. The latter together with helix 1, which contains a kink, form the long arm of the L, whereas helices 1 and 2 form the short arm. Binding to the minor groove induces a sharp bending of the DNA by more than 90 degree, away from the bound protein. The overall topology of the DNA-protein complexes resembles somewhat that of the TBP-TATA box complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF-7-related factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTCAAAGTCTAAC</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3.0.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3.0.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TCF-7, isoform 2L</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3.0.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3.0.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.3"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TAF-1 (TAF-2A, TAF(II)250) [1]</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1.6">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UBF-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: The heteromeric CCAAT-binding factor known from mammalian systems is NF-Y (CBF, CP1), a homolog of yeast HAP2/3/4. Like the latter, it is a heterotrimeric complex of which all three subunits NF-YA, NF-YB and NF-YC are required for binding to the CCAAT-element on the DNA. NF-YB and NF-YC both exhibit a histone-fold domain, showing some homology with histones H2B and H2A, respectively. These regions are required for heterodimerization, which is followed by docking of NF-YA. Modeling of the NF-Y complex and its binding to DNA according to the homology with histone and NC2 complexes suggests that the heterotrimeric complex provides an alpha-helically folded interface to interact with the DNA. Contribution of some loop structures is also conceivable. Upon binding through major and minor groove contacts, the NF-Y complex induces considerable bending of the DNA. (PMID 12401788)</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heteromeric CCAAT-binding factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CCAAT</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heteromeric CCAAT-binding factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-YA (CP1A, CBF-B)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1.0.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1.0.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#4.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-YB (CP1B, CBF-A)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: Members of this superclass possess a DNA-contact interface of alpha-helices, which are exposed by a scaffold of beta-strands. Different to members of superclasses 1-4, the DNA-binding alpha helices do not insert in either groove but rather are packed against the DNA.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-Helices exposed by beta-structures</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MADS box factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0014: Proteins of this class comprise a region of homology. The DNA-binding domain also comprises the dimerization capability. In the DNA-bound dimer (shown for SRF), two antiparallel amphipathic alpha-helices (alpha-I), form a coiled coil and are oriented approximately parallel on the minor groove. These helices make minor and major groove contacts, the N-terminal extensions form minor groove contacts. The bound DNA  is bent and wrapped around the protein. It exhibits a compressed minor groove in the center and widened minor groove in the flanks. (PMID 7637780)</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTAAAAATAG</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2A</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MEF-2C</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.2.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1.2.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#5.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SRF</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: DNA-binding domains of this superclass exhibit an immunoglobulin-like fold. It is characterized by a beta-core structure, usually a beta-sandwich, which exposes a DNA-contact interface of mostly loops, but also other secondary structure elements, from which the DNA-binding amino acid residues are protruding.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Immunoglobulin fold</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rel homology region (RHR) factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0020: The structure of the Rel-type DBD exhibits a bipartite subdomain structure, each subdomain comprising a beta-barrel with five loops that form an extensive contact surface to the major groove of the DNA. Particularly, the first loop of the N-terminal subdomain (the highly conserved recognition loop) performs contacts with the recognition element on the DNA, but other loops are involved. The fact that the main DNA-contacts are made through loops has been suggested to provide a high degree of flexibility in binding to a range of different target sequences. Augmenting interactions are achieved by two alpha-helices within the N-terminal part that form strong minor groove contacts to the A/T-rich center of the  B-element. In p65, the sequence between both alpha-helices is much shorter and even helix 2 is truncated. The second, C-terminal domain is necessary mainly for protein dimerization.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NF-kappaB-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.2.1.8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.2.1.8">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BCL-3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.3.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.3.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NFATc1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.5.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1.5.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EBF1 (COE1)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT factors</obo:EGO_0100001>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTCCCGGAA</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT1</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.2 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.2">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT2</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT3</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.5 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1.0.5">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6.2.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">STAT5A</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#6.4.1.0.3 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#6.4.1.0.3">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#6"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Runx3 (PEBP2alphaC, CBF-alpha3, AML-2)</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#7 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#7">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: The DNA-binding domains of this superclass have an alpha/beta-structured scaffold that exposes a beta-hairpin. This hairpin is the main DNA-contacting element and inserts into the major groove of the DNA. (PMID 12682016, PMID 20147459)</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Hairpin exposed by an alpha/beta-scaffold</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;Class description: The DNA-binding domains of this superclass bind to DNA through single extended strands or beta-sheets.  []</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Sheet binding to DNA</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: A 10-stranded, anti-parallel beta-sheet forms a quasi-symmetric saddle-like structure, where the convex side is backed by four alpha-helices and the concave side exerts mostly hydrophobic interactions with the minor groove of the TATA-box. Binding of TBP imposes a significant kink of the DNA double helix axis. (PMID 10617571, and references cited therein)</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATA-binding proteins</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TATAAA</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBP-related factors</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1.0.1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1.0.1">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/TFClass_human.obo#8.1.1"/>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TBP</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#9 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#9">
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: Other DNA-binding domains interacting with DNA through beta-folded structures and not covered by superclasses 7-9 are compiled in this superclass.</obo:IAO_0000115>
+        <obo:EGO_0100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Barrel DNA-binding domains</obo:EGO_0100001>
+        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
