@@ -361,7 +361,7 @@ We also have the outstanding issue of how to aim different definitions to differ
     <!-- http://purl.obolibrary.org/obo/RO_0002161 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002161">
-        <rdfs:label>Bnever in taxon</rdfs:label>
+        <rdfs:label>never in taxon</rdfs:label>
     </owl:AnnotationProperty>
     
 
