@@ -5,7 +5,6 @@
     <uri name="http://purl.obolibrary.org/obo/ego/NCBITaxon_import.owl" uri="imports/NCBITaxon_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego/OBI_import.owl" uri="imports/OBI_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego/OGG_import.owl" uri="imports/OGG_import.owl"/>
-    <uri name="http://purl.obolibrary.org/obo/ego/PR_import.owl" uri="imports/PR_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego/HTF_import.owl" uri="imports/HTF_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego.owl" uri="ego_dev.owl"/>
 </catalog>
