@@ -47,15 +47,15 @@
     
 
 
-    <!-- http://www.ebi.ac.uk/cellline/definition -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     
 
 
-    <!-- http://www.ebi.ac.uk/cellline/definition_editor -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
-    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/cellline/definition_editor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
     
 
 
@@ -74,8 +74,8 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0000000012">
         <obo:IAO_0000112>&apos;Max binding in MCF-7 cell&apos;: &apos;realized in cell&apos; some &apos;MCF cell&apos;</obo:IAO_0000112>
-        <cellline:definition>an object property that represents a relation between a realizable entity (e.g., molecular function) and a cell type (e.g., a cell line cell). This is a shortcut relation: &apos;realized in&apos; some (process and &apos;occurs at&apos; some cell)</cellline:definition>
-        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000115>an object property that represents a relation between a realizable entity (e.g., molecular function) and a cell type (e.g., a cell line cell). This is a shortcut relation: &apos;realized in&apos; some (process and &apos;occurs at&apos; some cell)</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">realized in cell</rdfs:label>
     </owl:ObjectProperty>
     
@@ -94,7 +94,7 @@
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0000000018">
         <obo:IAO_0000115>an object property that represents a relation between a molecular function (e.g., binding) and a protein. This is a shortcut relation that equals to:
 &apos;is realized in&apos; some (&apos;binding process&apos; and (&apos;has input&apos; some protein))</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">binding by protein</rdfs:label>
     </owl:ObjectProperty>
     
@@ -132,8 +132,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
         <obo:IAO_0000115>a material entity that is made up of chemical compounds and proteins that can attach to DNA and direct such actions as turning genes on or off, controlling the production of proteins in particular cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Steve Qin, and Steve Pittard</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
-        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
         <rdfs:comment>When epigenomic compounds attach to DNA and modify its function, they are said to have &quot;marked&quot; the genome. These marks do not change the sequence of the DNA. Rather, they change the way cells use the DNA&apos;s instructions. The marks are sometimes passed on from cell to cell as cells divide. They also can be passed down from one generation to the next.</rdfs:comment>
         <rdfs:label xml:lang="en">epigenome</rdfs:label>
     </owl:Class>
@@ -145,7 +145,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000011"/>
         <obo:IAO_0000115>a genomic location in human</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">human genomic location</rdfs:label>
     </owl:Class>
     
@@ -156,8 +156,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000001"/>
         <obo:IAO_0000115>an epigenome that exists in a eukaryotic organism</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Steve Qin, and Steve Pittard</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: https://www.genome.gov/27532724</obo:IAO_0000119>
-        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
         <rdfs:label xml:lang="en">eukaryotic epigenome</rdfs:label>
     </owl:Class>
     
@@ -168,7 +168,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000011"/>
         <obo:IAO_0000115>a genomic location in mouse</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">mouse genomic location</rdfs:label>
     </owl:Class>
     
@@ -204,8 +204,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a eukaryotic epigenome that exists in human.</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Steve Qin, and Steve Pittard</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
-        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
         <rdfs:comment>The epigenome marks the genome in two main ways, both of which play a role in turning genes on or off. The first type of mark, called DNA methylation, directly affects the DNA in a genome. In this process, proteins attach chemical tags called methyl groups to the bases of the DNA molecule in specific places. The methyl groups turn genes on or off by affecting interactions between the DNA and other proteins. In this way, cells can remember which genes are on or off. The second kind of mark, called histone modification, affects DNA indirectly. DNA in cells is wrapped around histone proteins, which form spool-like structures that enable DNA&apos;s very long molecules to be wound up neatly into chromosomes inside the cell nucleus. Proteins can attach a variety of chemical tags to histones.  Other proteins in cells can detect these tags and determine whether that region of DNA should be used or ignored in that cell. Web: https://www.genome.gov/27532724</rdfs:comment>
         <rdfs:comment>The human genome is the complete assembly of DNA (deoxyribonucleic acid)-about 3 billion base pairs - that makes each individual unique. DNA holds the instructions for building the proteins that carry out a variety of functions in a cell. Web: https://www.genome.gov/27532724</rdfs:comment>
         <rdfs:label xml:lang="en">human epigenome</rdfs:label>
@@ -224,8 +224,8 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>a eukaryotic epigenome that exists in mouse</obo:IAO_0000115>
+        <obo:IAO_0000117>Oliver He, Steve Qin, and Steve Pittard</obo:IAO_0000117>
         <obo:IAO_0000119>WEB: https://en.wikipedia.org/wiki/Epigenome</obo:IAO_0000119>
-        <cellline:definition_editor>Oliver He, Steve Qin, and Steve Pittard</cellline:definition_editor>
         <rdfs:label xml:lang="en">mouse epigenome</rdfs:label>
     </owl:Class>
     
@@ -236,7 +236,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000029"/>
         <obo:IAO_0000115>a site that indicates the location at a genome</obo:IAO_0000115>
-        <cellline:definition_editor>Oliver He</cellline:definition_editor>
+        <obo:IAO_0000117>Oliver He</obo:IAO_0000117>
         <rdfs:label xml:lang="en">genomic location</rdfs:label>
     </owl:Class>
     
