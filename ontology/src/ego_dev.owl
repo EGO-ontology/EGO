@@ -258,9 +258,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TFClass_human.obo#0 -->
+    <!-- http://purl.obolibrary.org/obo/EGO_0000000030 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TFClass_human.obo#0">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EGO_0000000030">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
