@@ -46,6 +46,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
@@ -272,6 +280,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear receptors with C4 zinc fingers</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC class description C0002: Zinc finger motif of nuclear receptor type. Two such motifs differing in size, composition and function are present in each receptor molecule. Each finger comprises 4 cysteine residues coordinating one zinc ion. The second half including the second cysteine pair has alpha-helix conformation, the helix of the first finger binds to the DNA through the major groove. The sequence between the first two cysteines of the second finger mediates dimerization upon DNA-binding.</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>nuclear receptor with C4 zinc finger</rdfs:label>
     </owl:Class>
     
 
@@ -282,6 +291,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000116"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steroid hormone receptors (NR3)</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>steroid hormone receptor</rdfs:label>
     </owl:Class>
     
 
@@ -292,6 +302,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000011406"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GR-Aalpha</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>glucocorticoid receptor alpha</rdfs:label>
     </owl:Class>
     
 
@@ -303,6 +314,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ER-like receptors (NR3A&amp;B)</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGGTCACAGTGACCT</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>estrogen-like receptor</rdfs:label>
     </owl:Class>
     
 
@@ -314,6 +326,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RXR-related receptors (NR2)</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGACCT</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>retinoid X related receptor</rdfs:label>
     </owl:Class>
     
 
@@ -325,6 +338,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HNF-4 (NR2A)</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGTCCAAAGTTCA</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>hepatocyte nuclear factor 4</rdfs:label>
     </owl:Class>
     
 
@@ -334,7 +348,11 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000115"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GATA-type zinc fingers</obo:EGO_0000100001>
+        <obo:IAO_0000115>A transcription factor with zinc-coordinating DNA-binding domain, specifically bind the DNA sequence (A/T)GATA(A/G) in the regulatory regions of genes. They are also termed as GATA-binding transcription factors.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://www.ebi.ac.uk/interpro/entry/IPR000679
+PMID: 2249770</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>GATA-type zinc fingers</rdfs:label>
     </owl:Class>
     
 
@@ -346,6 +364,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two zinc-finger GATA factors</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGATAA</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>GATA factor with two zinc-fingers</rdfs:label>
     </owl:Class>
     
 
@@ -357,6 +376,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C2H2 zinc finger factors</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TRANSFAC&lt;sup&gt;&amp;reg;&lt;/sup&gt; class description C0001: Zinc finger motif of TFIIIA/Krueppel type. Each finger comprises 2 cysteine and 2 histidine residues coordinating one zinc ion, in some cases one histidine is replaced by another cysteine. The zinc ion is essential for DNA-binding. The first half of the finger sequence is generally organized in two antiparallel beta-strands, the second half as an alpha-helix and partly as an 310-helix. Hydrophobic contacts between the beta-strands and the alpha-helix are formed by the conserved phenylalanine and leucine residues. The alpha-helix binds to DNA through the major groove. The finger link frequently is TGEKPY.</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>C2H2 zinc finger factor</rdfs:label>
     </owl:Class>
     
 
@@ -367,6 +387,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000124"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three-zinc finger Krüppel-related factors</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>three-zinc finger Kruppel-related factor</rdfs:label>
     </owl:Class>
     
 
@@ -378,6 +399,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sp1-like factors</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GGGGCGGGG</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>Sp1-like factor</rdfs:label>
     </owl:Class>
     
 
@@ -388,16 +410,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000124"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">More than 3 adjacent zinc finger factors</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EGO_0000000128 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000127"/>
-        <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0000100001>
-        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with more than 3 adjacent zinc fingers</rdfs:label>
     </owl:Class>
     
 
@@ -409,6 +422,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">YY1-like factors</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GCCATCTTG</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>YY1-like factor</rdfs:label>
     </owl:Class>
     
 
@@ -419,16 +433,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000124"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Factors with multiple dispersed zinc fingers</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/EGO_0000000131 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/EGO_0000000131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000130"/>
-        <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unclassified</obo:EGO_0000100001>
-        <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with multiple dispersed zinc fingers</rdfs:label>
     </owl:Class>
     
 
@@ -439,6 +444,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000115"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CpG-binding proteins</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>CpG-binding protein</rdfs:label>
     </owl:Class>
     
 
@@ -449,6 +455,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000115"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Histone acetyltransferases with C2HC zinc finger</obo:EGO_0000100001>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>histone acetyltransferase with C2HC zinc finger</rdfs:label>
     </owl:Class>
     
 
@@ -460,6 +467,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H zinc finger factors</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Class description: These factors comprise a putative zinc finger motif with the signature C------C-----C---H. DNA-binding has been proven only for three proteins of this class, ZC3H8 (2.8.1.0.1), of which closely related proteins have been included for similarity, ZGPAT (2.8.2.0.1), with no close relatives found, and RC3H2 (2.8.4.0.1). Most, if not all, other proteins of this class appear to be RNA-binders and be involved more likely in splicing rather than transcriptional regulation.</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
+        <rdfs:label>transcription factor with C3H zinc finger</rdfs:label>
     </owl:Class>
     
 
@@ -519,7 +527,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXA</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TGTTTGTTTTAAC</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
-        <rdfs:label>FOXA</rdfs:label>
+        <rdfs:label>forkhead box protein A</rdfs:label>
     </owl:Class>
     
 
@@ -531,7 +539,7 @@
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FOXP</obo:EGO_0000100001>
         <obo:EGO_0000100002 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TTGTTTCAA</obo:EGO_0000100002>
         <obo:IAO_0000412 rdf:resource="http://www.hegroup.org/ontoden/ontology/TFClass_human.owl"/>
-        <rdfs:label>FOXP</rdfs:label>
+        <rdfs:label>forkhead box protein P</rdfs:label>
     </owl:Class>
     
 
@@ -2033,7 +2041,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_000013841 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013841">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000130"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human RCOR1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REST corepressor 1</rdfs:label>
@@ -2055,7 +2063,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_000013894 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000013894">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000131"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000130"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">REST (NRSF, XBR) [1+7+1]</obo:EGO_0000100001>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human REST gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
@@ -2616,7 +2624,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_000017788 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017788">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000128"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000127"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF263 (FPM315, ZKSCAN12, Zfp263) [9]</obo:EGO_0000100001>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF263 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
@@ -2629,7 +2637,7 @@
     <!-- http://purl.obolibrary.org/obo/PR_000017795 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000017795">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000128"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/EGO_0000000127"/>
         <obo:EGO_0000100001 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZNF274 (neurotrophin receptor-interacting factor homolog; ZKSCAN19)</obo:EGO_0000100001>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A protein that is a translation product of the human ZNF274 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
