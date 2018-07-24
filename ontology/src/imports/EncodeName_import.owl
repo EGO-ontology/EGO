@@ -1,0 +1,652 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ego/EncodeName_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ego/EncodeName_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ego/EncodeName_import.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/EGO_0000100003"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0010422">
+        <obo:EGO_0000100003 xml:lang="en">GM08714</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007902">
+        <obo:EGO_0000100003 xml:lang="en">GCN5</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015611">
+        <obo:EGO_0000100003 xml:lang="en">SREBP1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014372">
+        <obo:EGO_0000100003 xml:lang="en">RXRA</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0027332">
+        <obo:EGO_0000100003 xml:lang="en">GM19193</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011175">
+        <obo:EGO_0000100003 xml:lang="en">NFIC</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014892">
+        <obo:EGO_0000100003 xml:lang="en">SIRT6</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015612">
+        <obo:EGO_0000100003 xml:lang="en">SREBP2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007208">
+        <obo:EGO_0000100003 xml:lang="en">ERRA</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0008734">
+        <obo:EGO_0000100003 xml:lang="en">Raji</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015613">
+        <obo:EGO_0000100003 xml:lang="en">SRF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010309">
+        <obo:EGO_0000100003 xml:lang="en">MEF2A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016221">
+        <obo:EGO_0000100003 xml:lang="en">TEAD4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015262 ">
+        <obo:EGO_0000100003 xml:lang="en">Ini1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014365">
+        <obo:EGO_0000100003 xml:lang="en">RUNX3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007600">
+        <obo:EGO_0000100003 xml:lang="en">FOSL2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005312">
+        <obo:EGO_0000100003 xml:lang="en">CEBPZ</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004740">
+        <obo:EGO_0000100003 xml:lang="en">BHLHE4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007602">
+        <obo:EGO_0000100003 xml:lang="en">FOXA1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007603">
+        <obo:EGO_0000100003 xml:lang="en">FOXA2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010709">
+        <obo:EGO_0000100003 xml:lang="en">MTA3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014362">
+        <obo:EGO_0000100003 xml:lang="en">NF-YB</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011168">
+        <obo:EGO_0000100003 xml:lang="en">NF-E2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007027">
+        <obo:EGO_0000100003 xml:lang="en">ELK4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007221">
+        <obo:EGO_0000100003 xml:lang="en">ETS1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005308">
+        <obo:EGO_0000100003 xml:lang="en">CEBPB</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015272">
+        <obo:EGO_0000100003 xml:lang="en">SMC3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005309">
+        <obo:EGO_0000100003 xml:lang="en">CEBPD</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0028068">
+        <obo:EGO_0000100003 xml:lang="en">GM15510</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016133">
+        <obo:EGO_0000100003 xml:lang="en">TBLR1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017755">
+        <obo:EGO_0000100003 xml:lang="en">ZNF217</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037238">
+        <obo:EGO_0000100003 xml:lang="en">HEK293-T-REx</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005997">
+        <obo:EGO_0000100003 xml:lang="en">CTCF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002091">
+        <obo:EGO_0000100003 xml:lang="en">STAT5A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005998">
+        <obo:EGO_0000100003 xml:lang="en">CTCFL</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005995">
+        <obo:EGO_0000100003 xml:lang="en">CtBP2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014877">
+        <obo:EGO_0000100003 xml:lang="en">SIN3A</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">Sin3Ak-2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037231">
+        <obo:EGO_0000100003 xml:lang="en">ECC-1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005854">
+        <obo:EGO_0000100003 xml:lang="en">CREB1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037234">
+        <obo:EGO_0000100003 xml:lang="en">SK-N-SH_RA</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015264">
+        <obo:EGO_0000100003 xml:lang="en">BAF170 </obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015263">
+        <obo:EGO_0000100003 xml:lang="en">BAF155</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0023758">
+        <obo:EGO_0000100003 xml:lang="en">GM10847</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002088">
+        <obo:EGO_0000100003 xml:lang="en">STAT2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002087">
+        <obo:EGO_0000100003 xml:lang="en">STAT1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002089">
+        <obo:EGO_0000100003 xml:lang="en">STAT3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009015">
+        <obo:EGO_0000100003 xml:lang="en">SH-SY5Y</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0025875">
+        <obo:EGO_0000100003 xml:lang="en">GM19099</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000012328">
+        <obo:EGO_0000100003 xml:lang="en">Pbx3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000029547">
+        <obo:EGO_0000100003 xml:lang="en">HMGN3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005084">
+        <obo:EGO_0000100003 xml:lang="en">CBX3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004717">
+        <obo:EGO_0000100003 xml:lang="en">BDP1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0008425">
+        <obo:EGO_0000100003 xml:lang="en">PFSK-1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0001230">
+        <obo:EGO_0000100003 xml:lang="en">HEK293</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000012969">
+        <obo:EGO_0000100003 xml:lang="en">Pol2</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">Pol2-4H8</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000012965">
+        <obo:EGO_0000100003 xml:lang="en">Pol3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017507">
+        <obo:EGO_0000100003 xml:lang="en">XRCC4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000006852">
+        <obo:EGO_0000100003 xml:lang="en">E2F1</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">HA-E2F1 (E2F1)</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0004307">
+        <obo:EGO_0000100003 xml:lang="en">HUVEC</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000006857">
+        <obo:EGO_0000100003 xml:lang="en">E2F6</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000006855">
+        <obo:EGO_0000100003 xml:lang="en">E2F4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0001601">
+        <obo:EGO_0000100003 xml:lang="en">A549</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001941">
+        <obo:EGO_0000100003 xml:lang="en">GATA3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001942">
+        <obo:EGO_0000100003 xml:lang="en">EBF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001944">
+        <obo:EGO_0000100003 xml:lang="en">PU.1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004803">
+        <obo:EGO_0000100003 xml:lang="en">BRCA1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016652">
+        <obo:EGO_0000100003 xml:lang="en">KAP1 (TRIM28)</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">TRIM28</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0003665">
+        <obo:EGO_0000100003 xml:lang="en">HCT-116</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013894">
+        <obo:EGO_0000100003 xml:lang="en">NRSF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0024913">
+        <obo:EGO_0000100003 xml:lang="en">GM18505</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004706">
+        <obo:EGO_0000100003 xml:lang="en">BCLAF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016265 ">
+        <obo:EGO_0000100003 xml:lang="en">AP-2gamma</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000029763">
+        <obo:EGO_0000100003 xml:lang="en">Brg1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037240">
+        <obo:EGO_0000100003 xml:lang="en">MCF1A-Er-Src</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014724">
+        <obo:EGO_0000100003 xml:lang="en">SETDB1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007857">
+        <obo:EGO_0000100003 xml:lang="en">GATA-1</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">GATA1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007858">
+        <obo:EGO_0000100003 xml:lang="en">GATA-2</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">GATA2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013841">
+        <obo:EGO_0000100003 xml:lang="en">COREST</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016176">
+        <obo:EGO_0000100003 xml:lang="en">TCF12</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015848">
+        <obo:EGO_0000100003 xml:lang="en">SUZ12</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017617">
+        <obo:EGO_0000100003 xml:lang="en">ZEB1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017137">
+        <obo:EGO_0000100003 xml:lang="en">USF-1 (USF1)</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">USF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013847">
+        <obo:EGO_0000100003 xml:lang="en">NELFe</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017138">
+        <obo:EGO_0000100003 xml:lang="en">USF2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0006951">
+        <obo:EGO_0000100003 xml:lang="en">IMR90</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017716">
+        <obo:EGO_0000100003 xml:lang="en">Znf143</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0003775">
+        <obo:EGO_0000100003 xml:lang="en">HL-60</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037278">
+        <obo:EGO_0000100003 xml:lang="en">PBDEFetal</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037277">
+        <obo:EGO_0000100003 xml:lang="en">PBDE</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016137">
+        <obo:EGO_0000100003 xml:lang="en">TBP</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013059 ">
+        <obo:EGO_0000100003 xml:lang="en">PGC1A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007020">
+        <obo:EGO_0000100003 xml:lang="en">ELF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000006937">
+        <obo:EGO_0000100003 xml:lang="en">Egr-1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0024847">
+        <obo:EGO_0000100003 xml:lang="en">GM18526</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037281">
+        <obo:EGO_0000100003 xml:lang="en">H1-hESC</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007025">
+        <obo:EGO_0000100003 xml:lang="en">ELK1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010211">
+        <obo:EGO_0000100003 xml:lang="en">Max</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010311">
+        <obo:EGO_0000100003 xml:lang="en">MEF2C</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010218">
+        <obo:EGO_0000100003 xml:lang="en">MBD4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0008381">
+        <obo:EGO_0000100003 xml:lang="en">PANC-1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004617">
+        <obo:EGO_0000100003 xml:lang="en">Bach1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017017">
+        <obo:EGO_0000100003 xml:lang="en">UBF</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">UBTF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009251">
+        <obo:EGO_0000100003 xml:lang="en">T-47D</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004812">
+        <obo:EGO_0000100003 xml:lang="en">BRF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004813">
+        <obo:EGO_0000100003 xml:lang="en">BRF2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000032504">
+        <obo:EGO_0000100003 xml:lang="en">ZC3H11A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017858">
+        <obo:EGO_0000100003 xml:lang="en">ZNF384</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013036">
+        <obo:EGO_0000100003 xml:lang="en">POU2F2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000027727">
+        <obo:EGO_0000100003 xml:lang="en">ERalpha_a</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010051">
+        <obo:EGO_0000100003 xml:lang="en">MafK</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001903">
+        <obo:EGO_0000100003 xml:lang="en">PAX5-C2</obo:EGO_0000100003>
+        <obo:EGO_0000100003 xml:lang="en">PAX5-N19</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007597">
+        <obo:EGO_0000100003 xml:lang="en">c-Fos</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017553">
+        <obo:EGO_0000100003 xml:lang="en">YY1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001831">
+        <obo:EGO_0000100003 xml:lang="en">PRDM1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017456">
+        <obo:EGO_0000100003 xml:lang="en">WHIP</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009464">
+        <obo:EGO_0000100003 xml:lang="en">U87</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000026474">
+        <obo:EGO_0000100003 xml:lang="en">PML</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007599">
+        <obo:EGO_0000100003 xml:lang="en">FOSL1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000003113">
+        <obo:EGO_0000100003 xml:lang="en">NFATC1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016043">
+        <obo:EGO_0000100003 xml:lang="en">TAL1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011422">
+        <obo:EGO_0000100003 xml:lang="en">Nrf1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000009232">
+        <obo:EGO_0000100003 xml:lang="en">c-Jun</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015442">
+        <obo:EGO_0000100003 xml:lang="en">SP4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000009234">
+        <obo:EGO_0000100003 xml:lang="en">JunD</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010802">
+        <obo:EGO_0000100003 xml:lang="en">MYBL2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016185">
+        <obo:EGO_0000100003 xml:lang="en">TCF3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016033">
+        <obo:EGO_0000100003 xml:lang="en">TAF7</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004265">
+        <obo:EGO_0000100003 xml:lang="en">ARID3A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016186">
+        <obo:EGO_0000100003 xml:lang="en">TCF7L2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016303">
+        <obo:EGO_0000100003 xml:lang="en">THAP1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008655">
+        <obo:EGO_0000100003 xml:lang="en">HNF4G</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008654">
+        <obo:EGO_0000100003 xml:lang="en">HNF4A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0007606">
+        <obo:EGO_0000100003 xml:lang="en">MCF-7</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017575">
+        <obo:EGO_0000100003 xml:lang="en">ZBTB33</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0050126">
+        <obo:EGO_0000100003 xml:lang="en">K562</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001811">
+        <obo:EGO_0000100003 xml:lang="en">IKZF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000133">
+        <obo:EGO_0000100003 xml:lang="en">SP1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0007947">
+        <obo:EGO_0000100003 xml:lang="en">NB4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010049">
+        <obo:EGO_0000100003 xml:lang="en">MafF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008528">
+        <obo:EGO_0000100003 xml:lang="en">HEY1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/EGO_0000000118">
+        <obo:EGO_0000100003 xml:lang="en">GRp20</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013044">
+        <obo:EGO_0000100003 xml:lang="en">POU5F1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0003699">
+        <obo:EGO_0000100003 xml:lang="en">HeLa-S3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0026303">
+        <obo:EGO_0000100003 xml:lang="en">GM18951</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011400">
+        <obo:EGO_0000100003 xml:lang="en">TR4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008481">
+        <obo:EGO_0000100003 xml:lang="en">HDAC2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0037299">
+        <obo:EGO_0000100003 xml:lang="en">H1-neurons</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000016014">
+        <obo:EGO_0000100003 xml:lang="en">TAF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011405">
+        <obo:EGO_0000100003 xml:lang="en">NR2F2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000011406">
+        <obo:EGO_0000100003 xml:lang="en">GR</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004654">
+        <obo:EGO_0000100003 xml:lang="en">BATF</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004397">
+        <obo:EGO_0000100003 xml:lang="en">ATF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004398">
+        <obo:EGO_0000100003 xml:lang="en">ATF2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004399">
+        <obo:EGO_0000100003 xml:lang="en">ATF3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000029308">
+        <obo:EGO_0000100003 xml:lang="en">CDP</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0022856">
+        <obo:EGO_0000100003 xml:lang="en">GM12892</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0022859">
+        <obo:EGO_0000100003 xml:lang="en">GM12891</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000001350">
+        <obo:EGO_0000100003 xml:lang="en">p3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017795">
+        <obo:EGO_0000100003 xml:lang="en">ZNF274</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010968">
+        <obo:EGO_0000100003 xml:lang="en">NANOG</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013667">
+        <obo:EGO_0000100003 xml:lang="en">Rad21</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013927">
+        <obo:EGO_0000100003 xml:lang="en">RFX5</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004690">
+        <obo:EGO_0000100003 xml:lang="en">BCL11A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008325">
+        <obo:EGO_0000100003 xml:lang="en">TFIIIC-11</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008470">
+        <obo:EGO_0000100003 xml:lang="en">HCFC1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0022851">
+        <obo:EGO_0000100003 xml:lang="en">GM12878</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000014900">
+        <obo:EGO_0000100003 xml:lang="en">SIX5</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017788">
+        <obo:EGO_0000100003 xml:lang="en">ZNF263</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007764 ">
+        <obo:EGO_0000100003 xml:lang="en">GABP</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017592">
+        <obo:EGO_0000100003 xml:lang="en">ZBTB7A</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007644">
+        <obo:EGO_0000100003 xml:lang="en">FOXP2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008313">
+        <obo:EGO_0000100003 xml:lang="en">GTF2B</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008790">
+        <obo:EGO_0000100003 xml:lang="en">HSF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000008315">
+        <obo:EGO_0000100003 xml:lang="en">GTF2F1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000015440">
+        <obo:EGO_0000100003 xml:lang="en">SP2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0008207">
+        <obo:EGO_0000100003 xml:lang="en">NT2-D1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000007635">
+        <obo:EGO_0000100003 xml:lang="en">FOXM1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010793">
+        <obo:EGO_0000100003 xml:lang="en">Mxi1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005406">
+        <obo:EGO_0000100003 xml:lang="en">CHD1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005069 ">
+        <obo:EGO_0000100003 xml:lang="en">NF-YA</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017683">
+        <obo:EGO_0000100003 xml:lang="en">ZNF-MIZD-CP1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000010212 ">
+        <obo:EGO_0000100003 xml:lang="en">MAZ</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009059">
+        <obo:EGO_0000100003 xml:lang="en">SK-N-SH</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000000084">
+        <obo:EGO_0000100003 xml:lang="en">c-Myc</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000013000">
+        <obo:EGO_0000100003 xml:lang="en">RPC155</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000018243">
+        <obo:EGO_0000100003 xml:lang="en">ZZZ3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009058">
+        <obo:EGO_0000100003 xml:lang="en">SK-N-MC</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002045">
+        <obo:EGO_0000100003 xml:lang="en">IRF3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002046">
+        <obo:EGO_0000100003 xml:lang="en">IRF4</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000002043">
+        <obo:EGO_0000100003 xml:lang="en">IRF1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005140">
+        <obo:EGO_0000100003 xml:lang="en">CCNT2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0003704">
+        <obo:EGO_0000100003 xml:lang="en">HepG2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000031448">
+        <obo:EGO_0000100003 xml:lang="en">SPT20</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000017673">
+        <obo:EGO_0000100003 xml:lang="en">ZKSCAN1</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000004699">
+        <obo:EGO_0000100003 xml:lang="en">BCL3</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CLO_0009454">
+        <obo:EGO_0000100003 xml:lang="en">U2OS</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PR_000005408 ">
+        <obo:EGO_0000100003 xml:lang="en">CHD2</obo:EGO_0000100003>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0071159">
+        <obo:EGO_0000100003 xml:lang="en">NFKB</obo:EGO_0000100003>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 1.3.4.992) http://owlapi.sourceforge.net -->
+
