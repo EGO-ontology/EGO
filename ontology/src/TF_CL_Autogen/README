@@ -1,0 +1,14 @@
+1. From GitHub:EGO-ontology/EGO/ontology/doc/HaibSydhTfbs_ontology_mappings.xlsx third tab (EncodeNames to EGO terms) extracts two input files:
+    a) uniqueTF.tsv (row 2-169)
+    b) uniqueCell.tsv (row 170-209)
+
+2. Run EGO_TF-binding_Autogen.jar file. Having the input files, jar and ego owl file under the same directory, run the following command in terminal (Need Java installed):
+    java -jar EGO_TF-binding_Autogen.jar -p ./ -c uniqueCell.tsv -t uniqueTF.tsv
+
+3. The output file is under the same directory with default name: EGO_TF-binding_import.owl. This ontology OWL file has IRI: http://purl.obolibrary.org/obo/ego/EGO_TF-binding_import.owl
+    a) Each TF in uniqueTF.tsv will be used to generate a new EGO class with label "TF binding" (e.g., "ATF1 binding") under the GO class "transcription factor binding" (GO_0008134).
+    b) Each of these new EGO "TF binding" classes in a) will also have an asserted axiom: "binding by protein" some "PR_XXXX". The "PR_XXXX" is the Protein Ontology ID defined in uniqueTF.tsv.
+    c) Each cellline in uniqueCell.tsv will be used in combination with TFs in uniqueTF.tsv to generate a new EGO class with label "TF binding in CellLine" (e.g., "ATF1 binding in A549") under the corresponding "TF binding" class.
+    d) Each of these new EGO "TF binding in CellLine" classes in c) will also have an asserted axiom: "occurs in" some "CL_XXXXXXX". The "CL_XXXXXXX" is the Cellline Ontology ID defined in uniqueCell.tsv.
+
+    NOTE: All new EGO classes generated here will EGO IRI starting from EGO_0000010001.
