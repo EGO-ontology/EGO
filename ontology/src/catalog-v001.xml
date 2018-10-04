@@ -8,4 +8,5 @@
     <uri name="http://purl.obolibrary.org/obo/ego/HTF_import.owl" uri="imports/HTF_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego/EncodeName_import.owl" uri="imports/EncodeName_import.owl"/>
     <uri name="http://purl.obolibrary.org/obo/ego.owl" uri="ego_dev.owl"/>
+    <uri name="http://purl.obolibrary.org/obo/ego/EGO_TF-binding_import.owl" uri="imports/EGO_TF-binding_import.owl"/>
 </catalog>
